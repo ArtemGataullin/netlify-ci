@@ -1,3 +1,10 @@
 .footer {
-  width: 100%;
+  color: rgb(201 195 194 / 1);
+  font-family: Inter;
+  font-size: 54.98px;
+  font-weight: 400;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
 }

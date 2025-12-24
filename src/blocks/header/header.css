@@ -1,3 +1,78 @@
 .header {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_logo {
+  display: flex;
+  margin: 43px 96px 0 25px;
+}
+
+.header_logo-text {
+  color: rgb(250 250 250 / 0.67);
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.header_body {
+  margin: 48px 107px 0 0;
+}
+
+.header_navigation-list {
+  display: flex;
+}
+
+.header_navigation-item {
+  padding-right: 54px;
+  color: white;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.header_navigation-item:last-child {
+  padding-right: 0;
+}
+
+.header_icons {
+  margin: 36px 46px 0 0;
+  display: flex;
+}
+
+.header_button {
+  padding-right: 10px;
+}
+
+.header_button-login {
+  border: medium none;
+  background: transparent;
+  background-image: none;
+  float: left;
+  background-color: transparent;
+}
+
+.header_button-signUp {
+  border-radius: 10px;
+  box-shadow:
+    inset 4px 4px 4px 0 rgb(12 12 12),
+    0 4px 4px 0 rgb(245 243 243 / 0.932);
+  background: linear-gradient(45deg, rgb(12 12 12), rgb(12 12 12) 100%);
+}
+
+.header_button-logintext {
+  padding: 10px 28px 13px;
+  color: white;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.header_button-signUptext {
+  padding: 12px 8px 11px;
+  color: white;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
 }
