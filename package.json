@@ -13,7 +13,7 @@
     "build": "gulp build",
     "dev": "gulp",
     "fixAndBuild": "npm run fixAll && npm run build",
-    "lintfixAndPush": "npm run fixAll && git add -A && git commit -m 'подготовили' && git push"
+    "lintfixAndPush": "npm run fixAll && git add -A && git commit -m подготовили_к_публикации && git push"
   },
   "author": "",
   "license": "ISC",
